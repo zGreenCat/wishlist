@@ -40,8 +40,7 @@ export function Hero({ name, birthday }: HeroProps) {
               data-animate="hero"
               className="mb-8 text-lg text-muted-foreground md:text-xl leading-relaxed text-pretty"
             >
-              Hola, soy {name}. Armé esta lista con algunas ideas de cosas que me
-              gustaría recibir este año. La idea es darte opciones, no obligaciones.
+              Hola, soy {name}. Y aqui hay cosas que quiero wuajja 
             </p>
 
             {/* Warm message */}
@@ -52,7 +51,7 @@ export function Hero({ name, birthday }: HeroProps) {
               <p className="text-sm text-muted-foreground italic leading-relaxed">
                 &quot;No hace falta que me regales nada de esto. Cualquier detalle cuenta, y lo
                 que más valoro es el cariño detrás del gesto. Esta lista es solo para
-                darte ideas si las necesitas.&quot;
+                darte ideas si las necesitas. Este texto es IA si no puedes darme nada dame dinero&quot;
               </p>
             </div>
           </div>

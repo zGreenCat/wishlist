@@ -47,6 +47,13 @@ const localWebpAssets = [
   "/zapato.webp",
   "/zapato2.webp",
   "/zapato3.webp",
+  "/monster.webp",
+  "/cartas.webp",
+  "cartas2.webp",
+  "cartas3.webp",
+  "/termo.webp",
+  "/termo2.webp",
+  "termo3.webp",
 ];
 
 function normalizeBaseName(assetPath: string): string {
@@ -125,6 +132,24 @@ const productDetails: Record<
   zapato: {
     name: "Zapatos",
     description: "Diferentes referencias para el mismo tipo de zapato.",
+    category: "ropa",
+    priceRange: "medio",
+  },
+    monster: {
+    name: "Monster",
+    description: "Six pack de monster sin azúcar. Que no sea blanca.",
+    category: "ropa",
+    priceRange: "medio",
+  },
+    cartas: {
+    name: "Cartas",
+    description: "Puede ser Memento Mori, Orbit Deck, Touch Origin.",
+    category: "ropa",
+    priceRange: "medio",
+  },
+    termo: {
+    name: "Termo",
+    description: "Para llevar cafe a la oficina wuajaj.",
     category: "ropa",
     priceRange: "medio",
   },

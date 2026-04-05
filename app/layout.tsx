@@ -16,8 +16,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Mi Wishlist de Cumpleaños',
-  description: 'Una lista de ideas de regalo para mi cumpleaños. Encuentra inspiración para regalar algo especial.',
+  title: 'Mi Wishlist',
+  description: 'Una lista de cosillas. Wuajaj',
   generator: 'v0.app',
   icons: {
     icon: [

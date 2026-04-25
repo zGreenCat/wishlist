@@ -32,7 +32,7 @@ export function Hero({ name, birthday }: HeroProps) {
               data-animate="hero"
               className="mb-6 font-serif text-4xl font-medium tracking-tight text-foreground md:text-6xl lg:text-7xl text-balance"
             >
-              Mi Wishlist de Cumpleaños
+              Mi Wishlist
             </h1>
 
             {/* Subtitle */}
@@ -40,20 +40,10 @@ export function Hero({ name, birthday }: HeroProps) {
               data-animate="hero"
               className="mb-8 text-lg text-muted-foreground md:text-xl leading-relaxed text-pretty"
             >
-              Hola, soy {name}. Y aqui hay cosas que quiero wuajja 
+              Hola, soy {name}. Y aqui pongo las cosas que quiero
             </p>
 
-            {/* Warm message */}
-            <div
-              data-animate="hero"
-              className="mx-auto max-w-xl rounded-2xl border border-primary/20 bg-background/75 p-6 shadow-sm"
-            >
-              <p className="text-sm text-muted-foreground italic leading-relaxed">
-                &quot;No hace falta que me regales nada de esto. Cualquier detalle cuenta, y lo
-                que más valoro es el cariño detrás del gesto. Esta lista es solo para
-                darte ideas si las necesitas. Este texto es IA si no puedes darme nada dame dinero&quot;
-              </p>
-            </div>
+           
           </div>
         </div>
       </div>

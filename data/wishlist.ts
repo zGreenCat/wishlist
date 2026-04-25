@@ -36,14 +36,13 @@ export const priorities: { value: Priority; label: string }[] = [
 
 const localWebpAssets = [
   "/barra.webp",
-  "/chaqueta.webp",
   "/cuero1.webp",
   "/cuero2.webp",
   "/expedition-33.webp",
   "/polo.webp",
   "/polo2.webp",
-  "/shapez2.webp",
   "/sueter.webp",
+  "sueter2.webp",
   "/zapato.webp",
   "/zapato2.webp",
   "/zapato3.webp",
@@ -54,6 +53,8 @@ const localWebpAssets = [
   "/termo.webp",
   "/termo2.webp",
   "termo3.webp",
+  "mancuernas.webp",
+  "mancuernas2.webp",
 ];
 
 function normalizeBaseName(assetPath: string): string {
@@ -89,12 +90,6 @@ const productDetails: Record<
     category: "otros",
     priceRange: "medio",
   },
-  chaqueta: {
-    name: "Chaqueta",
-    description: "Idea de chaqueta para uso diario con corte limpio.",
-    category: "ropa",
-    priceRange: "medio",
-  },
   cuero: {
     name: "Chaqueta de cuero",
     description: "Varias referencias de acabados y siluetas para una misma idea.",
@@ -114,14 +109,6 @@ const productDetails: Record<
     description: "Referencias de polos con variaciones en color y fit.",
     category: "ropa",
     priceRange: "bajo",
-  },
-  shapez: {
-    name: "Shapez 2",
-    description: "Juego de Steam. Solo comprar en oferta.",
-    category: "juegos",
-    priceRange: "medio",
-    isSteam: true,
-    link: "https://store.steampowered.com/app/2162800/shapez_2/",
   },
   sueter: {
     name: "Sueter",
@@ -153,6 +140,13 @@ const productDetails: Record<
     category: "ropa",
     priceRange: "medio",
   },
+    mancuernas: {
+    name: "Mancuernas",
+    description: "Set de mancuernas.",
+    category: "ropa",
+    priceRange: "medio",
+  }
+
 };
 
 export const wishlistItems: WishlistItem[] = Object.entries(productDetails)
